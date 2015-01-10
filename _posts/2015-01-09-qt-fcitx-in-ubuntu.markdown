@@ -2,7 +2,7 @@
 layout: post
 date:   2015-01-09 18:16:25
 title:  "linux で qt5 開発時に fcitx でも日本語入力"
-categories: fcitx qt ubuntu
+categories: ubuntu fcitx qt
 ---
 
 Ununtu 上で fcitx を使っていて Qt の開発を行う場合、オフィシャルのウェブページから持ってきたインストーラから入れた QtCreator やそれでビルドしたツールで日本語入力ができない問題があります。その解決方法が見つかったっぽいのでまとめたいと思います。
@@ -18,7 +18,7 @@ fcitx 用のライブラリを置く
 
 サイトからダウンロードしてきた Qt には fcitx 用のライブラリが入っていないので追加してやらないとだめです。
 
-~~~~ bash
+~~~~
 sudo apt-get install fcitx-libs-qt5
 ~~~~
 
@@ -31,7 +31,7 @@ Tools/QtCreator/bin/plugins/platforminputcontexts\\
 環境変数を Qt で fcitx をつかうようにする
 -----------------------------------------
 
-~~~~ bash
+~~~~
 sudo apt-get install qt4-qtconfig
 qtconfig
 ~~~~
@@ -40,7 +40,7 @@ qtconfig
 
 これで以下のように環境変数が設定されていれば多分日本語入力できるはずです。
 
-~~~~ bash
+~~~~
 $ echo $GTK_IM_MODULE
 fcitx
 $ echo $QT_IM_MODULE
@@ -48,4 +48,4 @@ fcitx
 $ echo $XMODIFIERS
 @im=fcitx
 ~~~~
-
+{: .bash .hljs}
