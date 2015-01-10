@@ -5,7 +5,7 @@ description: > # this means to ignore newlines until "baseurl:"
   電子機器とかも 現在D勉強中 最近はゆるく競プロやってる 
   [linux, TopCorder, AtCorder, Ubuntu, vim, C++, Dlang]
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://diginatu.github.io" # the base hostname & protocol for your site
 twitter_username: diginatu
 github_username: diginatu
 
