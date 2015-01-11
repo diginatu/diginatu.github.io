@@ -8,7 +8,11 @@ html {
 }
 
 pre {
+  padding: 0;
+  background: none;
   font: 14px/19px Consolas,monospace,serif;
+  color: initial;
+  border: 0;
 }
 
 .blog-list {
@@ -19,4 +23,14 @@ pre {
 
 .text-weak {
   color: #828282;
+}
+
+pre.nohighlight {
+  padding: 10px;
+  background: none repeat scroll 0% 0% #FAFAFA;
+  color: #444;
+  -moz-tab-size: 4;
+  overflow: auto;
+  border: 1px solid #DDD;
+  border-radius: 3px;
 }
