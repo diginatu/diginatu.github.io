@@ -38,6 +38,19 @@ Tools/QtCreator/bin/plugins/platforminputcontexts\\
 
 [fcitx環境のQt5.4で日本語入力できるようにする](http://blog.pyyoshi.com/2015/03/04/fcitxhuan-jing-noqt5-4deri-ben-yu-ru-li-dekiruyounisuru/)
 
+### コンパイルしたライブラリをおいておきます
+
+環境が同じならどうぞ
+
+[Ubuntu 14.04 Qt 5.4]({{ site.baseurl }}/contents/libfcitxplatforminputcontextplugin_qt5-4.so)
+
+##### ソース
+
+
+Release 0.1.3 を使用 [fcitx-qt5](https://github.com/fcitx/fcitx-qt5)
+
+[Qt Project](http://www.qt.io/)
+
 2.環境変数を Qt で fcitx をつかうようにする
 -----------------------------------------
 
