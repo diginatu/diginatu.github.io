@@ -12,10 +12,14 @@ fcitx とはインプットメソッドで ibus と同じようなものです�
 記事中の内容は Qt5 、Ubuntu での話になります。
 いろいろやったので足りないところや無駄なところがあるかもしれないですが最小限で書いているつもりです。
 
-fcitx 用のライブラリを置く
+1.fcitx 用のライブラリを置く (3/13/2015 変更・追記)
 --------------------------
 
 サイトからダウンロードしてきた Qt には fcitx 用のライブラリが入っていないので追加してやらないとだめです。
+
+Ubuntu のリポジトリで配布されている Qt と同じバージョンを使用している時のみ apt-get で持ってくる方法が使えます。違うバージョンで入れるとセグフォを起こすようになるので注意してください。
+
+### + apt-get でライブラリを持ってくる方法
 
 ~~~~
 sudo apt-get install fcitx-libs-qt5
@@ -28,7 +32,13 @@ sudo apt-get install fcitx-libs-qt5
 Tools/QtCreator/bin/plugins/platforminputcontexts\\
 [version]/gcc_64/plugins/platforminputcontexts
 
-環境変数を Qt で fcitx をつかうようにする
+### + 自前でライブラリをビルドする方法
+
+以下のページが参考になります。apt-get でライブラリを入手するときの問題も指摘されていました。
+
+[fcitx環境のQt5.4で日本語入力できるようにする](http://blog.pyyoshi.com/2015/03/04/fcitxhuan-jing-noqt5-4deri-ben-yu-ru-li-dekiruyounisuru/)
+
+2.環境変数を Qt で fcitx をつかうようにする
 -----------------------------------------
 
 ~~~~
