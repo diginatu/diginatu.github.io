@@ -18,7 +18,6 @@ linuxでプログラミングとかいろいろ
 ----------------------------------------
 
 クロスプラットフォームなニコ生用コメビュです。
-Ubuntu とか Mac でもうごく
 
 アカウント
 ----------
@@ -34,13 +33,15 @@ Ubuntu とか Mac でもうごく
 <a href="https://twitter.com/{{ site.twitter_username }}">
 <i class="uk-icon-twitter text-weak"></i> {{ site.twitter_username }}
 </a> <br>
-趣味アカウント。主にプログラミングとか競プロとか技術関係をつぶやきます。
+趣味アカウント。
+主にプログラミングとか研究のこととか技術関係をつぶやきます。
 </li>
 
 <li>
 <a href="https://twitter.com/desineigh">
 <i class="uk-icon-twitter text-weak"></i> desineigh
 </a> <br>
-個人的なことをつぶやくアカウント。放送に関してもつぶやきます。
+放送に関して(Viqoの話も)もつぶやくアカウントです。
+個人的なことをつぶやくのもこっちです。
 </li>
 </ul>

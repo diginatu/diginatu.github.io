@@ -1,12 +1,13 @@
 # Site settings
 title: Diginatu World
 description: > # this means to ignore newlines until "baseurl:"
-  プログラミングたのしい AIとか興味ある感じ
-  電子機器とかも 現在D勉強中 最近はゆるく競プロやってる 
+  プログラミングたのしい 汎用AIとか興味ある感じ
+  電子機器とかも
   [linux, TopCorder, AtCorder, Ubuntu, vim, C++, Dlang]
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://diginatu.github.io" # the base hostname & protocol for your site
 twitter_username: diginatu
+twitter_username2: desineigh
 github_username: diginatu
 
 # Build settings
