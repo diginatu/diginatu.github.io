@@ -39,7 +39,7 @@ linuxでプログラミングとかいろいろ
 
 <li>
 <a href="https://twitter.com/desineigh">
-<i class="uk-icon-twitter text-weak"></i> desineigh
+<i class="uk-icon-twitter text-weak"></i> {{ site.twitter_username2 }}
 </a> <br>
 放送に関して(Viqoの話も)もつぶやくアカウントです。
 個人的なことをつぶやくのもこっちです。
