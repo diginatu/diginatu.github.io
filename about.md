@@ -4,7 +4,7 @@ title: About Diginatu
 permalink: /about/
 ---
 
-ソフト系の大学生 プログラミングとかリナックス関係とかたまに競プロとか
+そふとうぇあえんじにあ プログラミングとかリナックス関係とかたまに電子回路とか
 
 
 [ニコ生](http://com.nicovideo.jp/community/co2345471)
@@ -34,7 +34,7 @@ linuxでプログラミングとかいろいろ
 <i class="uk-icon-twitter text-weak"></i> {{ site.twitter_username }}
 </a> <br>
 趣味アカウント。
-主にプログラミングとか研究のこととか技術関係をつぶやきます。
+主にプログラミングとか技術関係をつぶやきます。
 </li>
 
 <li>
