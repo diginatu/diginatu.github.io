@@ -7,17 +7,33 @@ permalink: /about/
 そふとうぇあえんじにあ プログラミングとかリナックス関係とかたまに電子回路とか
 
 
-[ニコ生](http://com.nicovideo.jp/community/co2345471)
------------------------------------------------------
+作ったもの
+----------
+
+### [Nagome](https://github.com/diginatu/nagome)
+
+クロスプラットフォームでプラグイン機構とか備えたgolang製ニコ生用コメビュ(バックエンド)。
+
+### [Nagome Electron](https://github.com/diginatu/nagome-electron)
+
+Nagome用のUI。
+
+### [Viqo](https://github.com/diginatu/Viqo)
+
+クロスプラットホームなコメビュ。開発終了。
+
+
+アカウントとか
+--------------
+
+### [ニコ生](http://com.nicovideo.jp/community/co2345471)
 
 linuxでプログラミングとかいろいろ
 
-[サブコミュ](http://com.nicovideo.jp/community/co2451565)
+### [サブコミュ](http://com.nicovideo.jp/community/co2451565)
 
-[Viqo](https://github.com/diginatu/Viqo)
-----------------------------------------
+ゲームとか雑談とか頭使わないっぽいことやります
 
-クロスプラットフォームなニコ生用コメビュです。
 
 アカウント
 ----------
@@ -32,16 +48,6 @@ linuxでプログラミングとかいろいろ
 <li>
 <a href="https://twitter.com/{{ site.twitter_username }}">
 <i class="uk-icon-twitter text-weak"></i> {{ site.twitter_username }}
-</a> <br>
-趣味アカウント。
-主にプログラミングとか技術関係をつぶやきます。
-</li>
-
-<li>
-<a href="https://twitter.com/desineigh">
-<i class="uk-icon-twitter text-weak"></i> {{ site.twitter_username2 }}
-</a> <br>
-放送に関して(Viqoの話も)もつぶやくアカウントです。
-個人的なことをつぶやくのもこっちです。
+</a>
 </li>
 </ul>
