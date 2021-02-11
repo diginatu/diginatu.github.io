@@ -1,35 +1,17 @@
-
 <div class="uk-margin-large-top">
-
-  <hr>
-  <div class="uk-grid">
-    <div class="uk-width-medium-1-4 uk-margin-top">
+  <hr class="uk-divider-icon">
+  <div uk-grid>
+    <div>
       <h2>{{ site.title }}</h2>
     </div>
 
-    <div class="uk-width-medium-1-4">
-      <ul class="uk-list">
-        <li>
-        <a href="https://github.com/{{ site.github_username }}">
-          <i class="uk-icon-github text-weak"></i> {{ site.github_username }}
-        </a>
-        </li>
-
-        <li>
-        <a href="https://twitter.com/{{ site.twitter_username }}">
-          <i class="uk-icon-twitter text-weak"></i> {{ site.twitter_username }}
-        </a>
-        </li>
-
-        <li>
-        <a href="https://www.youtube.com/channel/UC_4HH7aQmL8GNhyV6RWro9Q">
-          <i class="uk-icon-youtube text-weak"></i> Digi Natu
-        </a>
-        </li>
-      </ul>
+    <div>
+      <a href="https://github.com/{{ site.github_username }}" uk-icon="icon: github"></a>
+      <a href="https://twitter.com/{{ site.twitter_username }}" uk-icon="icon: twitter"></a>
+      <a href="https://www.youtube.com/channel/UC_4HH7aQmL8GNhyV6RWro9Q" uk-icon="icon: youtube"></a>
     </div>
 
-    <div class="uk-width-medium-2-4">
+    <div>
       <p>{{ site.description }}</p>
     </div>
   </div>

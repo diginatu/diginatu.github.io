@@ -4,7 +4,7 @@ title: About Diginatu
 permalink: /about/
 ---
 
-そふとうぇあえんじにあ プログラミングとかリナックス関係とかたまに電子回路とか
+{{ site.description }}
 
 
 作ったもの
@@ -22,38 +22,25 @@ Nagome用のUI。
 
 クロスプラットホームなコメビュ。開発終了。
 
-
-アカウントとか
---------------
-
-### [ニコ生](http://com.nicovideo.jp/community/co2345471)
-
-linuxでプログラミングとかいろいろ
-
-### [サブコミュ](http://com.nicovideo.jp/community/co2451565)
-
-ゲームとか雑談とか頭使わないっぽいことやります
-
-
 アカウント
 ----------
 
 <ul class="uk-list">
 <li>
 <a href="https://github.com/{{ site.github_username }}">
-<i class="uk-icon-github text-weak"></i> {{ site.github_username }}
+<span uk-icon="icon: github"></span> {{ site.github_username }}
 </a>
 </li>
 
 <li>
 <a href="https://twitter.com/{{ site.twitter_username }}">
-<i class="uk-icon-twitter text-weak"></i> {{ site.twitter_username }}
+<span uk-icon="icon: twitter"></span> {{ site.twitter_username }}
 </a>
 </li>
 
 <li>
 <a href="https://www.youtube.com/channel/UC_4HH7aQmL8GNhyV6RWro9Q">
-<i class="uk-icon-youtube text-weak"></i> Digi Natu
+<span uk-icon="icon: youtube"></span> Digi Natu
 </a>
 </li>
 </ul>

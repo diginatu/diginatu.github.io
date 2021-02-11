@@ -1,16 +1,18 @@
 
 <div class="uk-margin-bottom">
-  <nav class="uk-navbar">
-    <ul class="uk-navbar-nav">
-      <a class="uk-navbar-brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
-      {% for mainPage in site.pages %} {% if mainPage.title %}
-      <li{% if page.url == mainPage.url %} class="uk-active"{% endif %}>
-      <a href="{{ mainPage.url | prepend: site.baseurl }}" class="uk-navbar-nav">
-        {{ mainPage.title }}
-      </a>
-      </li>
-      {% endif %} {% endfor %}
-    </ul>
+  <nav class="uk-navbar-container" uk-navbar>
+    <div class="uk-navbar-left">
+      <a href="{{ site.baseurl }}/" class="uk-navbar-item uk-logo">{{ site.title }}</a>
+      <ul class="uk-navbar-nav">
+        {% for mainPage in site.pages %} {% if mainPage.title %}
+        <li{% if page.url == mainPage.url %} class="uk-active"{% endif %}>
+          <a href="{{ mainPage.url | prepend: site.baseurl }}" class="uk-navbar-nav">
+            {{ mainPage.title }}
+          </a>
+        </li>
+        {% endif %} {% endfor %}
+      </ul>
+    </div>
   </nav>
 </div>
 
