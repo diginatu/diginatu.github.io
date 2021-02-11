@@ -50,4 +50,10 @@ linuxでプログラミングとかいろいろ
 <i class="uk-icon-twitter text-weak"></i> {{ site.twitter_username }}
 </a>
 </li>
+
+<li>
+<a href="https://www.youtube.com/channel/UC_4HH7aQmL8GNhyV6RWro9Q">
+<i class="uk-icon-youtube text-weak"></i> {{ Digi Natu }}
+</a>
+</li>
 </ul>
